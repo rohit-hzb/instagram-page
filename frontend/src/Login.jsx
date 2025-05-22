@@ -3,7 +3,7 @@ import axios from "axios";
 import { backendUrl } from "./App";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import icon from "./assets/instagram_icon.png"
+// import icon from "./assets/instagram_icon.png"
 
 export default function Login({ setToken }) {
   const [currentState, setCurrentState] = useState("login");
@@ -60,13 +60,13 @@ export default function Login({ setToken }) {
       {/* Auth Container */}
       <div className="w-full max-w-md bg-white border rounded-lg shadow-md p-8">
         {/* Logo */}
-        <div className="flex justify-center mb-6">
+        {/* <div className="flex justify-center mb-6">
           <img
             src={icon}
             alt="Instagram Logo"
             className="w-24 h-24 object-contain"
           />
-        </div>
+        </div> */}
 
         {/* Header */}
         <h2 className="text-center text-xl font-bold mb-4">
