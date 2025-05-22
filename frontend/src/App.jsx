@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import Login from './Login';
 import Home from './Home';
 
-export const backendUrl = "http://localhost:5000";
+export const backendUrl = "https://instagram-page-4.onrender.com";
 
 function App() {
   const [token, setToken] = useState("");
