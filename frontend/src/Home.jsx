@@ -23,7 +23,7 @@ function Home() {
       <div className="max-w-4xl mx-auto p-4">
         {/* User Info */}
         <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm mb-6">
-         
+          
           <div>
             <h2 className="text-lg font-semibold text-gray-800">John Doe</h2>
             <p className="text-sm text-gray-500">@john_doe</p>
@@ -37,10 +37,10 @@ function Home() {
               key={i}
               className="bg-white rounded-lg shadow-md overflow-hidden"
             >
-              
+             
               <div className="p-3">
                 <p className="text-sm text-gray-700">
-                  Post description goes here...
+                  Post description goes here for post {i + 1}...
                 </p>
               </div>
             </div>
